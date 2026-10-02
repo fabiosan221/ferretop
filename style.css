@@ -1,5 +1,5 @@
 /* Paleta de colores 
-#07CD08 verde
+#298b29 verde
 #c58a3e siena natural
 #f1f1f1 gris claro
 #F1EFE4 blanco
@@ -11,8 +11,8 @@
 }
 
 #btn-flotante{
-    background-color: #07CD08;    
-    border-color: #07CD08;
+    background-color: #298b29;    
+    border-color: #298b29;
     color: #F1EFE4;    
 }
 
@@ -22,18 +22,23 @@
     color: #F1EFE4;    
 }
 
-.btn-blanco:hover{
-    background-color: #F1EFE4;
-    color: #000000;
-}
+/* .btn-blanco{
+    background-color:#000000;
+    color: #F1EFE4;
+} */
 
 .btn-blanco{
-    background-color:#000000;
+    background-color: #f8f8f8;
+    color: #298b29;
+}
+
+.btn-blanco:hover{
+    background-color: #c58a3e;
     color: #F1EFE4;
 }
 
 .btn-verde{
-    background-color: #07CD08;
+    background-color: #298b29;
     color: #F1EFE4;
 }
 
@@ -44,8 +49,8 @@
 
 .btn-siena{
     color: #fff;
-    background: #07CD08;
-    border-color: 1px solid #07CD08;
+    background: #298b29;
+    border-color: 1px solid #298b29;
 }
 
 .btn-siena:hover{
@@ -56,6 +61,14 @@
 
 .card-borde{
     border: #c58a3e;
+}
+
+.card-footer {
+    background-color: #298b29 !important; 
+}
+
+.card {
+    box-shadow: 0px 0px 30px -20px rgba(32,36,42,0.9);
 }
 
 .flex-container {
@@ -76,7 +89,7 @@
 }
 
 .fondo-verde{
-    background-color: #07CD08;
+    background-color: #298b29;
 }
 
 .font-weight-600{
@@ -101,7 +114,8 @@
 }
 
 .iconos-redes:hover{
-    color: #07CD08;
+    /* color: #298b2 */
+    color: #c58a3e;
 }
 
 .iconos-redes-contacto{
@@ -110,7 +124,7 @@
 }
 
 .iconos-redes-contacto:hover{
-    color: #07CD08;
+    color: #298b29;
 }
 
 .icono-feature{
@@ -128,8 +142,8 @@
 }
 
 .item-navegacion.active {
-    color: #07CD08 !important;
-    border-bottom: 4px solid #07CD08;
+    color: #298b29 !important;
+    border-bottom: 4px solid #298b29;
 }
 
 .item-navegacion:hover {
@@ -166,11 +180,11 @@
 }
 
 .texto-verde{
-    color: #07CD08;
+    color: #298b29;
 }
 
 /* --------------------------------------------Formularios--------------------------------------------  */
-.form-control {
+.form-control-siena {
     background-color: #fff !important;
     border: 2px solid #c58a3e !important;
 }
